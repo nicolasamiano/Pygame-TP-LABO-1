@@ -1,0 +1,23 @@
+import pygame
+from constantes import *
+
+fondo = pygame.image.load("Imagenes/background.png")
+fondo = pygame.transform.scale(fondo, (PANTALLA_ANCHO, PANTALLA_LARGO))
+fondo_menu = pygame.image.load("Imagenes/Cockpit.jpg")
+fondo_menu = pygame.transform.scale(fondo_menu, (PANTALLA_ANCHO, PANTALLA_LARGO))
+boton_jugar = pygame.image.load("Imagenes/play.png")
+boton_jugar = pygame.transform.scale(boton_jugar, (350, 350))
+fondo_titulo = pygame.image.load("Imagenes/title.png")
+fondo_titulo = pygame.transform.scale(fondo_titulo, (500, 200))
+fondo_score = pygame.image.load("Imagenes/score.png")
+fondo_score = pygame.transform.scale(fondo_score, (350, 350))
+fondo_gameover = pygame.image.load("Imagenes/muerte.jpg")
+fondo_gameover = pygame.transform.scale(fondo_gameover, (PANTALLA_ANCHO, PANTALLA_LARGO))
+titulo_gameover = pygame.image.load("Imagenes/gameover_titulo.png")
+titulo_gameover = pygame.transform.scale(titulo_gameover, (500, 500))
+boton_jugar_denuevo = pygame.image.load("Imagenes/boton_jugar_denuevo.png")
+boton_jugar_denuevo = pygame.transform.scale(boton_jugar_denuevo, (280, 110))
+fondo_menu_score = pygame.image.load("Imagenes/fondo_scores.jpg")
+fondo_menu_score = pygame.transform.scale(fondo_menu_score, (PANTALLA_ANCHO, PANTALLA_LARGO))
+boton_volver = pygame.image.load("Imagenes/arrow.png")
+boton_volver = pygame.transform.scale(boton_volver, (100, 100))
